@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/pillario/image/upload/c_thumb,g_custom,w_1920,h_1080/page-background/1a8afd21-5e4c-41e3-a84e-390a2f4fba69?_reload=414dd240-d24c-11ed-aba7-37a4c0b19fc9');
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-top: 40px;
+  color: white;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px
+}
+
+.content img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nav-item {
+  height: 60px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  font-weight: 500;
+  border: 2px solid white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item:hover {
+  color: #6ed0f8;
+  border: 2px solid #6ed0f8;
+}
+
+.nav-item span {
+  display: inline-block;
+}
